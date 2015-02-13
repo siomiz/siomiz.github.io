@@ -1,0 +1,799 @@
+/*** uncss> filename: css/bootstrap.min.css ***/
+
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+a {
+  background: 0 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media print {
+  * {
+    text-shadow: none!important;
+    color: #000!important;
+    background: transparent!important;
+    box-shadow: none!important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100%!important;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+small {
+  font-size: 85%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width:768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-md-4,
+.col-md-5,
+.col-md-7,
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width:992px) {
+  .col-md-4,
+  .col-md-5,
+  .col-md-7,
+  .col-md-12 {
+    float: left;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url(../fonts/glyphicons-halflings-regular.eot);
+  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.container:after,
+.row:after {
+  clear: both;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/*** uncss> filename: css/jquery.fancybox.css ***/
+
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+
+/* Overlay helper */
+
+/* Title helper */
+
+/*Retina graphics!*/
+
+/*** uncss> filename: css/flickity.css ***/
+
+/* Flickity
+------------------------- */
+
+/* ---- previous/next buttons ---- */
+
+/* color & size if no SVG - IE8 and Android 2.3 */
+
+/* ---- page dots ---- */
+
+/*** uncss> filename: css/animate.css ***/
+
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/*** uncss> filename: http://fonts.googleapis.com/css?family=Nunito:400,300,700 ***/
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito-Light'), url(http://fonts.gstatic.com/s/nunito/v7/1TiHc9yag0wq3lDO9cw0vqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(http://fonts.gstatic.com/s/nunito/v7/kpI87QY2ce-mk2ZnKb-r0g.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(http://fonts.gstatic.com/s/nunito/v7/TttUCfJ272GBgSKaOaD7KqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+/*** uncss> filename: css/styles.css ***/
+
+/* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+HTML5 display definitions
+========================================================================== */
+
+/*
+* Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+*/
+
+footer,
+header,
+section {
+  display: block;
+}
+
+/*
+* Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+*/
+
+/*
+* Prevents modern browsers from displaying `audio` without controls.
+* Remove excess height in iOS 5 devices.
+*/
+
+/*
+* Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3, * and Safari 4.
+* Known issue:no IE 6 support.
+*/
+
+/* ==========================================================================
+Base
+========================================================================== */
+
+/*
+* 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+*    `em` units.
+* 2. Prevents iOS text size adjust after orientation change, without disabling
+*    user zoom.
+*/
+
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+* Addresses `font-family` inconsistency between `textarea` and other form
+* elements.
+*/
+
+html {
+  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/*
+* Addresses margins handled incorrectly in IE 6/7.
+*/
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*
+* Font Smoothing
+*/
+
+html,
+html a {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+Links
+========================================================================== */
+
+/*
+* Addresses `outline` inconsistency between Chrome and other browsers.
+*/
+
+a:focus {
+  outline: thin dotted;
+  text-decoration: none;
+}
+
+/*
+* Improves readability when focused and also mouse hovered in all browsers.
+*/
+
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+
+/*
+* Addresses font sizes and margins set differently in IE 6/7.
+* Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome.
+*/
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+/*
+* Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+*/
+
+/*
+* Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+*/
+
+/*
+* Addresses styling not present in Safari 5 and Chrome.
+*/
+
+/*
+* Addresses styling not present in IE 6/7/8/9.
+*/
+
+/*
+* Addresses margins set differently in IE 6/7.
+*/
+
+p {
+  margin: 1em 0;
+}
+
+/*
+* Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+*/
+
+/*
+* Improves readability of pre-formatted text in all browsers.
+*/
+
+/*
+* Addresses CSS quotes not supported in IE 6/7.
+*/
+
+/*
+* Addresses `quotes` property not supported in Safari 4.
+*/
+
+small {
+  font-size: 75%;
+}
+
+/*
+* Prevents `sub` and `sup` affecting `line-height` in all browsers.
+*/
+
+/* ==========================================================================
+Lists
+========================================================================== */
+
+/*
+* Addresses margins set differently in IE 6/7.
+*/
+
+ul {
+  margin: 1em 0;
+}
+
+/*
+* Addresses paddings set differently in IE 6/7.
+*/
+
+ul {
+  padding: 0;
+}
+
+/*
+* Corrects list images handled incorrectly in IE 7.
+*/
+
+/* ==========================================================================
+Embedded content
+========================================================================== */
+
+/*
+* 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+* 2. Improves image quality when scaled in IE 7.
+*/
+
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/*
+* Corrects overflow displayed oddly in IE 9.
+*/
+
+/* ==========================================================================
+Global Styles
+========================================================================== */
+
+a {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+a {
+  color: #73d0da;
+}
+
+a:hover,
+a:focus {
+  color: #73d0da;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+Video
+========================================================================== */
+
+section.video h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+section.video {
+  padding: 60px 0;
+  background-color: #f6f7f9;
+}
+
+/* ==========================================================================
+Buttons
+========================================================================== */
+
+.read-more-btn {
+  display: inline-block;
+  color: #323a45;
+  font-weight: 400;
+}
+
+/* ==========================================================================
+Features List
+========================================================================== */
+
+.features-list {
+  padding: 130px 0;
+}
+
+.features-list h1 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #24374b;
+  font-size: 20px;
+}
+
+.features-list p {
+  margin-bottom: 20px;
+  color: #778899;
+}
+
+.feature-content {
+  display: inline-block;
+  margin-left: 0;
+  width: 65%;
+}
+
+.feature-icon {
+  display: inline-block;
+  margin-right: 25px;
+  width: 90px;
+  height: 90px;
+  border: solid 2px #4e9ba3;
+  border-radius: 50%;
+  vertical-align: top;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+}
+
+.feature-icon img {
+  max-width: 38px;
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+
+footer {
+  padding: 100px 0;
+  background-color: #3f6184;
+}
+
+footer p {
+  color: #c7cacc;
+  font-size: 12px;
+}
+
+footer ul {
+  margin-top: 30px;
+}
+
+footer li {
+  float: right;
+  margin-right: 15%;
+  list-style: none;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  height: 48px;
+  color: #ffffff;
+}
+
+footer li a {
+  color: #ffffff;
+}
+
+footer li:last-child {
+  margin-right: 0;
+}
+
+/* ==========================================================================
+Waypoints
+========================================================================== */
+
+.wp2 {
+  visibility: hidden;
+}
+
+.fadeInDown {
+  visibility: visible;
+}
+
+.delay-05s {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+/*** uncss> filename: css/queries.css ***/
+
+@media screen and (max-width:1200px) {
+  footer li {
+    margin-right: 10%;
+  }
+
+  .feature-content {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .feature-1,
+  .feature-2 {
+    margin-bottom: 50px;
+  }
+
+  .feature-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .feature-content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  footer li {
+    display: block;
+    text-align: left;
+    padding: 20px 0;
+    border-bottom: dashed 1px #c7cacc;
+    margin-right: 0!important;
+    float: none;
+  }
+}
+
+@media screen and (max-width:465px) {
+  section.video h1 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  section.video {
+    padding: 40px;
+  }
+
+  .feature-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .feature-icon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
